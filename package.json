@@ -1,8 +1,13 @@
 {
   "name": "@flowbox/eslint-config",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "",
   "main": "index.js",
+  "files": [
+    "index.js",
+    "warn-only.js",
+    "rules"
+  ],
   "keywords": [
     "eslint"
   ],
