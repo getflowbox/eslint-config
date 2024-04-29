@@ -1,4 +1,4 @@
-const restrictedGlobals = require('eslint-restricted-globals');
+const restrictedGlobals = require('confusing-browser-globals');
 
 module.exports = {
   rules: {

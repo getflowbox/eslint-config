@@ -56,12 +56,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@flowbox/eslint-config@workspace:."
   dependencies:
+    confusing-browser-globals: "npm:^1.0.11"
     eslint: "npm:^5.9.0"
     eslint-find-rules: "npm:^3.3.1"
     eslint-plugin-import: "npm:^2.21.0"
-    eslint-restricted-globals: "npm:^0.2.0"
-    object.assign: "npm:^4.1.0"
-    object.entries: "npm:^1.0.4"
   peerDependencies:
     eslint-plugin-eslint-comments: ^3.2.0
     eslint-plugin-jsx-a11y: ^6.1.2
@@ -371,6 +369,13 @@ __metadata:
   version: 0.0.1
   resolution: "concat-map@npm:0.0.1"
   checksum: 10c0/c996b1cfdf95b6c90fee4dae37e332c8b6eb7d106430c17d538034c0ad9a1630cb194d2ab37293b1bdd4d779494beee7786d586a50bd9376fd6f7bcc2bd4c98f
+  languageName: node
+  linkType: hard
+
+"confusing-browser-globals@npm:^1.0.11":
+  version: 1.0.11
+  resolution: "confusing-browser-globals@npm:1.0.11"
+  checksum: 10c0/475d0a284fa964a5182b519af5738b5b64bf7e413cfd703c1b3496bf6f4df9f827893a9b221c0ea5873c1476835beb1e0df569ba643eff0734010c1eb780589e
   languageName: node
   linkType: hard
 
@@ -707,13 +712,6 @@ __metadata:
   peerDependencies:
     eslint: ^2 || ^3 || ^4 || ^5 || ^6 || ^7.2.0 || ^8
   checksum: 10c0/5f35dfbf4e8e67f741f396987de9504ad125c49f4144508a93282b4ea0127e052bde65ab6def1f31b6ace6d5d430be698333f75bdd7dca3bc14226c92a083196
-  languageName: node
-  linkType: hard
-
-"eslint-restricted-globals@npm:^0.2.0":
-  version: 0.2.0
-  resolution: "eslint-restricted-globals@npm:0.2.0"
-  checksum: 10c0/3716f5d1ba5500683794b0f65071a8461ad58d02397b0e427577a15caf6d01ebc0f879afbe8063d5b5edd2ae7aa26efb55d1caa258378140bbf03e8dc5fbace9
   languageName: node
   linkType: hard
 
@@ -1668,7 +1666,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"object.assign@npm:^4.1.0, object.assign@npm:^4.1.5":
+"object.assign@npm:^4.1.5":
   version: 4.1.5
   resolution: "object.assign@npm:4.1.5"
   dependencies:
@@ -1677,17 +1675,6 @@ __metadata:
     has-symbols: "npm:^1.0.3"
     object-keys: "npm:^1.1.1"
   checksum: 10c0/60108e1fa2706f22554a4648299b0955236c62b3685c52abf4988d14fffb0e7731e00aa8c6448397e3eb63d087dcc124a9f21e1980f36d0b2667f3c18bacd469
-  languageName: node
-  linkType: hard
-
-"object.entries@npm:^1.0.4":
-  version: 1.1.8
-  resolution: "object.entries@npm:1.1.8"
-  dependencies:
-    call-bind: "npm:^1.0.7"
-    define-properties: "npm:^1.2.1"
-    es-object-atoms: "npm:^1.0.0"
-  checksum: 10c0/db9ea979d2956a3bc26c262da4a4d212d36f374652cc4c13efdd069c1a519c16571c137e2893d1c46e1cb0e15c88fd6419eaf410c945f329f09835487d7e65d3
   languageName: node
   linkType: hard
 

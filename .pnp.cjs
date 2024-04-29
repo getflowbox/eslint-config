@@ -26,12 +26,10 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
+          ["confusing-browser-globals", "npm:1.0.11"],\
           ["eslint", "npm:5.16.0"],\
           ["eslint-find-rules", "virtual:4c39711956bd6100d42f3859b275915d9a78ea453411bde0f91016e4351b0a2ecaef59db49cce4ceb024c9585780ed27d9823a61f4a9b7a3505ae26c943e5c98#npm:3.6.1"],\
-          ["eslint-plugin-import", "virtual:4c39711956bd6100d42f3859b275915d9a78ea453411bde0f91016e4351b0a2ecaef59db49cce4ceb024c9585780ed27d9823a61f4a9b7a3505ae26c943e5c98#npm:2.29.1"],\
-          ["eslint-restricted-globals", "npm:0.2.0"],\
-          ["object.assign", "npm:4.1.5"],\
-          ["object.entries", "npm:1.1.8"]\
+          ["eslint-plugin-import", "virtual:4c39711956bd6100d42f3859b275915d9a78ea453411bde0f91016e4351b0a2ecaef59db49cce4ceb024c9585780ed27d9823a61f4a9b7a3505ae26c943e5c98#npm:2.29.1"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -93,12 +91,10 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["@flowbox/eslint-config", "workspace:."],\
+          ["confusing-browser-globals", "npm:1.0.11"],\
           ["eslint", "npm:5.16.0"],\
           ["eslint-find-rules", "virtual:4c39711956bd6100d42f3859b275915d9a78ea453411bde0f91016e4351b0a2ecaef59db49cce4ceb024c9585780ed27d9823a61f4a9b7a3505ae26c943e5c98#npm:3.6.1"],\
-          ["eslint-plugin-import", "virtual:4c39711956bd6100d42f3859b275915d9a78ea453411bde0f91016e4351b0a2ecaef59db49cce4ceb024c9585780ed27d9823a61f4a9b7a3505ae26c943e5c98#npm:2.29.1"],\
-          ["eslint-restricted-globals", "npm:0.2.0"],\
-          ["object.assign", "npm:4.1.5"],\
-          ["object.entries", "npm:1.1.8"]\
+          ["eslint-plugin-import", "virtual:4c39711956bd6100d42f3859b275915d9a78ea453411bde0f91016e4351b0a2ecaef59db49cce4ceb024c9585780ed27d9823a61f4a9b7a3505ae26c943e5c98#npm:2.29.1"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -468,6 +464,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../.yarn/berry/cache/concat-map-npm-0.0.1-85a921b7ee-10c0.zip/node_modules/concat-map/",\
         "packageDependencies": [\
           ["concat-map", "npm:0.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["confusing-browser-globals", [\
+      ["npm:1.0.11", {\
+        "packageLocation": "../../.yarn/berry/cache/confusing-browser-globals-npm-1.0.11-b3ff8e9483-10c0.zip/node_modules/confusing-browser-globals/",\
+        "packageDependencies": [\
+          ["confusing-browser-globals", "npm:1.0.11"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -947,15 +952,6 @@ const RAW_RUNTIME_STATE =
           "@types/typescript-eslint__parser",\
           "@typescript-eslint/parser",\
           "eslint"\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["eslint-restricted-globals", [\
-      ["npm:0.2.0", {\
-        "packageLocation": "../../.yarn/berry/cache/eslint-restricted-globals-npm-0.2.0-182c454bae-10c0.zip/node_modules/eslint-restricted-globals/",\
-        "packageDependencies": [\
-          ["eslint-restricted-globals", "npm:0.2.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2008,18 +2004,6 @@ const RAW_RUNTIME_STATE =
           ["define-properties", "npm:1.2.1"],\
           ["has-symbols", "npm:1.0.3"],\
           ["object-keys", "npm:1.1.1"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["object.entries", [\
-      ["npm:1.1.8", {\
-        "packageLocation": "../../.yarn/berry/cache/object.entries-npm-1.1.8-386f7451b8-10c0.zip/node_modules/object.entries/",\
-        "packageDependencies": [\
-          ["object.entries", "npm:1.1.8"],\
-          ["call-bind", "npm:1.0.7"],\
-          ["define-properties", "npm:1.2.1"],\
-          ["es-object-atoms", "npm:1.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
